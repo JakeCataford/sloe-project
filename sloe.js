@@ -27,18 +27,17 @@ var chart;
 
 
 $(document).ready(function() {
-
-  $('.stretch-header').each(function() {
-    $(this).css({'background-image' : 'url(' + $(this).data("src") + ')'});
-  });
-
   skrollr.init();
-
-  $(document).scroll(function() {
-    console.log($(document).scrollTop());
-    if($(document).scrollTop() > 3000 && chart == undefined) {
-      console.log('doit');
-      chart = new Chart($("#dummyChart").get(0).getContext("2d")).PolarArea(chartData, {segmentShowStroke : false});
-    }
+  SLOE.make.title({
+    context : {
+      "title" : "Old Ottawa East (OOE) is..."
+    },
+    duration : 1500
+  });
+  SLOE.make.slide({
+    context : {
+      "title" : "yo yo yo"
+    },
+    duration : 1500
   });
 });
