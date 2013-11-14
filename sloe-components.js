@@ -14,10 +14,10 @@
     },
 
     registerHelpers : function() {
-      Handlebars.registerHelper("minus", function(number, offset) {
+      Handlebars.registerHelper("before", function(number, offset) {
         return number - offset;
       });
-      Handlebars.registerHelper("plus", function(number, offset) {
+      Handlebars.registerHelper("after", function(number, offset) {
         return number + offset;
       });
     },
