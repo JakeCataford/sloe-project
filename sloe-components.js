@@ -18,7 +18,7 @@
         return number - offset;
       });
       Handlebars.registerHelper("plus", function(number, offset) {
-        return number - offset;
+        return number + offset;
       });
     },
 
@@ -43,26 +43,12 @@
 
     },
 
-    make : {
-      title : function(options) {
-        var settings = {};
-        settings.context = options.context || "no no no";
-        settings.duration = options.duration || 0;
-        console.log(options.context);
-        SLOE.loadTemplate('title', settings.context, settings.duration);
-      },
-      slide : function(options) {
-        var settings = {};
-        settings.context = options.context || "no no no";
-        settings.duration = options.duration || 0;
-        console.log(options.context);
-        SLOE.loadTemplate('slide', settings.context, settings.duration);
-      }
+    make : function(componentName, options) {
+      var settings = {};
+      settings.context = options.context || "no no no";
+      settings.duration = options.duration || 0;
+      SLOE.loadTemplate(componentName, settings.context, settings.duration);
     }
-
-
-
   };
-
   SLOE.init();
 })();

@@ -1,8 +1,8 @@
 {{!-- Slide Template --}}
+<div class="header-text" 
+  data-{{duration.start}}="opacity: 0.0; top:10px"
+  data-{{plus duration.start 100}}="top:0px; opacity:1.0" 
+  data-{{duration.end}}="top:50px; opacity:0.0">
 
- <!-- Introduction bullets (at 1500) -->
-  <div class="header-text" data-{{duration.start}}="top:0px; opacity:1.0" data-{{duration.end}}="top:50px; opacity:0.0">
-    <h1 style="color:#3d3d3d">{{title}}</h1>
-  </div>
-  <img style="right:0px" height="500" data-{{plus duration.start 300}}="bottom:-600px" data-{{minus duration.end 300}}="bottom:-50px" src="http://c85c7a.medialib.glogster.com/media/a8/a8a51cd07f82a6612ff24dea7ee560e395c2af4171649017652d5cd5e59f731d/butterfly-transparent-background-0400-10072.gif"/> 
+  <h1 style="color:#3d3d3d">{{title}}</h1>
 </div>
