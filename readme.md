@@ -3,8 +3,11 @@ SLOE Interactive Infographic
 
 ### Installation
 
-Are you Serious... nothing fancy. HTML/CSS/JS no precompiling. 
-She wants it to work offline so we need to include our libraries in a lib folder.
+Compile the application using rake:
+
+`rake compile`
+
+This copies the nessescary files into the dist folder, and compiles the templates.
 
 ### Notes
 
