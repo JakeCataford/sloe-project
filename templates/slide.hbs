@@ -1,1 +1,14 @@
-{{!-- Slide Template --}}
+<div class="stretch-header" 
+ data-{{before duration.start 1500}}="top:100%; background-position-y:-{{backgroundParallaxDistance}}px" 
+ data-{{duration.start}}="top:0%; background-position-y:0px"
+ data-{{before duration.end 500}}="top:0%; background-position-y:0px"
+ data-{{duration.end}}= "top:-100%; background-position-y:{{backgroundParallaxDistance}}px" 
+ data-src="{{backgroundImage}}">
+</div>
+<div class="header-text" 
+  data-{{duration.start}}="opacity:0.0; top:0px" 
+  data-{{after duration.start 500}}="opacity:0.9; top:0px"
+  data-{{before duration.end 500}}="opacity:0.0; top:-50px">
+  <h2>{{title}}</h1>
+  <h3>{{{body}}}</h2>
+</div>

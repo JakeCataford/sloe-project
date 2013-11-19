@@ -11,11 +11,53 @@ $(document).ready(function() {
   });
   SLOE.make.slide({
     context : {
-      "title" : "yo yo yo"
+      "title" : "Main Street renewal",
+      "body" : "\
+        <ul>\
+          <li>Goal is to engage children with nature.</li>\
+          <li>Anyone is welcome to help out in the garden, and to harvest from the garden.</li>\
+          <li>Hosts play-groups, art-making workshops, organic gardening workshops, harvest feasts and more.</li>\
+        </ul>\
+      ",
+      backgroundImage : "assets/img/trees-and-path.png",
+      backgroundParallaxDistance : 500
     },
-    backgroundImage : "assets/img/mushroom.jpg",
-    backgroundParallaxDistance : 500,
-    duration : 1500
+    
+    duration : 2500
+  });
+
+  SLOE.make.slide({
+    context : {
+      "title" : "Main Street renewal",
+      "body" : "\
+        <ul>\
+          <li>Goal is to engage children with nature.</li>\
+          <li>Anyone is welcome to help out in the garden, and to harvest from the garden.</li>\
+          <li>Hosts play-groups, art-making workshops, organic gardening workshops, harvest feasts and more.</li>\
+        </ul>\
+      ",
+      backgroundImage : "assets/img/trees-and-path.png",
+      backgroundParallaxDistance : 500
+    },
+    
+    duration : 2500
+  });
+
+  SLOE.make.slide({
+    context : {
+      "title" : "Main Street renewal",
+      "body" : "\
+        <ul>\
+          <li>Goal is to engage children with nature.</li>\
+          <li>Anyone is welcome to help out in the garden, and to harvest from the garden.</li>\
+          <li>Hosts play-groups, art-making workshops, organic gardening workshops, harvest feasts and more.</li>\
+        </ul>\
+      ",
+      backgroundImage : "assets/img/trees-and-path.png",
+      backgroundParallaxDistance : 500
+    },
+    
+    duration : 2500
   });
 
   skrollr.init();
