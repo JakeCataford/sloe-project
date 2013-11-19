@@ -64,8 +64,8 @@
       var settings = {};
       settings.context = options.context || "no no no";
       settings.duration = options.duration || 0;
-      settings.context.backgroundImage = options.backgroundImage;
-      settings.context.backgroundParallaxDistance = options.backgroundParallaxDistance;
+      settings.context.backgroundImage = options.context.backgroundImage;
+      settings.context.backgroundParallaxDistance = options.context.backgroundParallaxDistance;
       return settings;
     }
 

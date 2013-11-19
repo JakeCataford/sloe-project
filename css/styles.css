@@ -69,6 +69,11 @@ ul {
   list-style: none;
 }
 
+.center {
+  text-align: center;
+  
+}
+
 .header-text {
   width:100%;
   color:white;
