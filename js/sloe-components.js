@@ -57,7 +57,12 @@
       slide : function(options) {
         var settings = SLOE.validateOptions(options);
         SLOE.loadTemplate('slide', settings.context, settings.duration);
+      },
+      colorSlide : function(options) {
+        var settings = SLOE.validateOptions(options);
+        SLOE.loadTemplate('color-slide', settings.context, settings.duration);
       }
+
     },
 
     validateOptions : function(options) {

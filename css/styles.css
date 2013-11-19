@@ -71,7 +71,12 @@ ul {
 
 .center {
   text-align: center;
-  
+
+}
+
+.icon-right {
+  right:0%;
+  margin: 30px
 }
 
 .header-text {
