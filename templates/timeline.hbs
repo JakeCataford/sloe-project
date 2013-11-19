@@ -1,0 +1,26 @@
+<div class="stretch-header" 
+ data-{{before duration.start 600}}="top:100%" 
+ data-{{duration.start}}="top:0%"
+ data-{{before duration.end 500}}="top:0%"
+ data-{{duration.end}}= "top:-100%" 
+ style="background: {{backgroundColor}}">
+</div>
+
+<div class="stripe"
+  style="background : {{stripeColor}}"
+  data-{{duration.start}}="height:0%"
+  data-{{after duration.start 400}}="height : 100%"
+  data-{{before duration.end 600}}="opacity : 1.0; "
+  data-{{before duration.end 300}}="opacity : 0.0;"
+>
+</div>
+
+<div class="header-text center" 
+  data-{{duration.start}}="opacity:0.0; top:0px" 
+  data-{{after duration.start 500}}="opacity:0.9; top:0px"
+  data-{{before duration.end 500}}="opacity:0.0; top:-50px">
+  <h2>{{title}}</h1>
+  <h3>{{{subtitle}}}</h2>
+</div>
+
+

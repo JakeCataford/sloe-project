@@ -71,7 +71,20 @@ $(document).ready(function() {
           <li>Hosts play-groups, art-making workshops, organic gardening workshops, harvest feasts and more.</li>\
         </ul>\
       ",
-      backgroundColor : "#eeaede",
+      backgroundColor : "#345622",
+      iconImage : "assets/img/test-icon.png",
+      backgroundParallaxDistance : 500
+    },
+    
+    duration : 2500
+  });
+
+  SLOE.make.timeline({
+    context : {
+      "title" : "Main Street renewal",
+      "subtitle" : "whut.",
+      backgroundColor : "#e37482",
+      stripeColor : "#283992",
       iconImage : "assets/img/test-icon.png",
       backgroundParallaxDistance : 500
     },

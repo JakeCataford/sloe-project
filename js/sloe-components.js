@@ -61,6 +61,10 @@
       colorSlide : function(options) {
         var settings = SLOE.validateOptions(options);
         SLOE.loadTemplate('color-slide', settings.context, settings.duration);
+      },
+      timeline : function(options) {
+        var settings = SLOE.validateOptions(options);
+        SLOE.loadTemplate('timeline', settings.context, settings.duration);
       }
 
     },
