@@ -28,7 +28,7 @@ $(document).ready(function() {
       "body" : "<p>Development is increasing due to the desirable location of OOE.<br/><br/>\
                 At the same time, OOE community groups are working to make OOE more\
                 environmentally sustainable with a better quality of life</p>",
-      backgroundImage : "assets/img/trees-and-path.png",
+      backgroundImage : "assets/img/construction.jpg",
       backgroundParallaxDistance : 500
     },
     
@@ -38,8 +38,8 @@ $(document).ready(function() {
   SLOE.make.timeline({
     context : {
       "title" : "What's Been Achieved in Recent Years?",
-      backgroundColor : "#e37482",
-      stripeColor : "#237272",
+      backgroundColor : "#2f4e25",
+      stripeColor : "#8577a8",
       iconImage : "assets/img/test-icon.png",
       backgroundParallaxDistance : 500
     },
@@ -48,7 +48,7 @@ $(document).ready(function() {
   });
   
 
-  SLOE.make.colorSlide({
+  SLOE.make.slide({
     context : {
       "title" : "Farmers Market",
       "body" : "\
@@ -58,15 +58,14 @@ $(document).ready(function() {
           <li>A fun and vibrant meeting place that builds community.</li>\
         </ul>\
       ",
-      backgroundColor : "#eeaede",
-      iconImage : "assets/img/test-icon.png",
+      backgroundImage : "assets/img/farmers_market.jpg",
       backgroundParallaxDistance : 500
     },
     
     duration : 2500
   });
 
-  SLOE.make.colorSlide({
+  SLOE.make.slide({
     context : {
       "title" : "Children’s Garden",
       "body" : "\
@@ -76,15 +75,14 @@ $(document).ready(function() {
           <li>Hosts play-groups, art-making workshops, organic gardening workshops, harvest feasts and more.</li>\
         </ul>\
       ",
-      backgroundColor : "#eeaede",
-      iconImage : "assets/img/test-icon.png",
+      backgroundImage : "assets/img/childrens_garden.jpg",
       backgroundParallaxDistance : 500
     },
     
     duration : 2500
   });
 
-  SLOE.make.colorSlide({
+  SLOE.make.slide({
     context : {
       "title" : "Community Gardens",
       "body" : "\
@@ -95,15 +93,14 @@ $(document).ready(function() {
               - Lees Community Garden next to apartment buildings</li>\
         </ul>\
       ",
-      backgroundColor : "#345622",
-      iconImage : "assets/img/test-icon.png",
+      backgroundImage : "assets/img/community_garden.jpg",
       backgroundParallaxDistance : 500
     },
     
     duration : 2500
   });
 
-  SLOE.make.colorSlide({
+  SLOE.make.slide({
     context : {
       "title" : "Brantwood Park Field House Renovation",
       "body" : "<ul>\
@@ -111,8 +108,7 @@ $(document).ready(function() {
           <li>Activities include playgroups, art classes, aftercare, sports and games, as well as changing areas for skating and swimming.</li>\
         </ul>\
       ",
-      backgroundColor : "#345622",
-      iconImage : "assets/img/test-icon.png",
+      backgroundImage : "assets/img/brantwood_park.jpg",
       backgroundParallaxDistance : 500
     },
     
@@ -126,7 +122,7 @@ $(document).ready(function() {
                 <li>Community participated in creation of the community design plan.</li>\
                 <li>Activities include playgroups, art classes, aftercare, sports and games, as well as changing areas for skating and swimming.<li>\
                 </ul>",
-    backgroundImage : "assets/img/trees-and-path.png",
+    backgroundImage : "assets/img/dad_kid_tree.jpg",
     backgroundParallaxDistance : 500
   },
     duration : 2500
@@ -135,16 +131,15 @@ $(document).ready(function() {
   SLOE.make.timeline({
     context : {
       "title" : "What Initiatives Are In Progress?",
-      backgroundColor : "#e37482",
-      stripeColor : "#237272",
-      iconImage : "assets/img/test-icon.png",
+      backgroundColor : "#2f4e25",
+      stripeColor : "#8577a8",
       backgroundParallaxDistance : 500
     },
     
     duration : 2500
   });
 
-  SLOE.make.colorSlide({
+  SLOE.make.slide({
     context : {
       "title" : "Rideau River Nature Trail",
       "body" : "\
@@ -155,15 +150,14 @@ $(document).ready(function() {
               as the sitting rocks</li> \
           <li>Community is providing extensive input on City’s “Western Rideau” pathway design</li>\
         </ul>",
-      backgroundColor : "#eeaede",
-      iconImage : "assets/img/test-icon.png",
+      backgroundImage : "assets/img/river_trail.jpg",
       backgroundParallaxDistance : 500
     },
     
     duration : 2500
   });
 
-  SLOE.make.colorSlide({
+  SLOE.make.slide({
     context : {
       "title" : "Main Street Renewal",
       "body" : "\
@@ -173,15 +167,14 @@ $(document).ready(function() {
           <li>The end result will be an attractive, safe and vibrant Main Street that can more easily support shopping and other amenities</li>\
         </ul>\
       ",
-      backgroundColor : "#eeaede",
-      iconImage : "assets/img/test-icon.png",
+      backgroundImage : "assets/img/main_street.jpg",
       backgroundParallaxDistance : 500
     },
     
     duration : 2500
   });
 
-  SLOE.make.colorSlide({
+  SLOE.make.slide({
     context : {
       "title" : "Canal Footbridge at Clegg",
       "body" : "\
@@ -190,24 +183,7 @@ $(document).ready(function() {
           <li>Design and environmental assessment has been approved by City, and is waiting for funding</li>\
         </ul>\
       ",
-      backgroundColor : "#345622",
-      iconImage : "assets/img/test-icon.png",
-      backgroundParallaxDistance : 500
-    },
-    
-    duration : 2500
-  });
-
-  SLOE.make.colorSlide({
-    context : {
-      "title" : "Brantwood Park Field House Renovation",
-      "body" : "<ul>\
-          <li>Field house is now a multi-use space for all ages.</li>\
-          <li>Activities include playgroups, art classes, aftercare, sports and games, as well as changing areas for skating and swimming.</li>\
-        </ul>\
-      ",
-      backgroundColor : "#345622",
-      iconImage : "assets/img/test-icon.png",
+      backgroundImage : "assets/img/footbridge_ms_design.png",
       backgroundParallaxDistance : 500
     },
     
@@ -217,8 +193,8 @@ $(document).ready(function() {
   SLOE.make.timeline({
     context : {
       "title" : "What’s Next for OOE?",
-      backgroundColor : "#e37482",
-      stripeColor : "#237272",
+      backgroundColor : "#2f4e25",
+      stripeColor : "#8577a8",
       iconImage : "assets/img/test-icon.png",
       backgroundParallaxDistance : 500
     },
@@ -226,7 +202,7 @@ $(document).ready(function() {
     duration : 2500
   });
 
-  SLOE.make.slide({
+  SLOE.make.colorSlide({
     context : {
       "title" : "OOE Population Is Growing...",
       "body" : "<ul>\
@@ -235,13 +211,13 @@ $(document).ready(function() {
                 <li>- Development of institutional lands near Saint Paul’s University (land owned by Oblates and Sisters) – additional 3000 residents</li>\
                 <li>- Transit-Oriented Development around Lees Transit Station – could ultimately add 20,000 residents</li>\
                 </ul>",
-    backgroundImage : "assets/img/trees-and-path.png",
+    backgroundColor : "#576ea8",
     backgroundParallaxDistance : 500
   },
     duration : 2500
   });
 
-  SLOE.make.slide({
+  SLOE.make.colorSlide({
     context : {
       "title" : "How Can OOE Benefit?",
       "body" : "<ul>\
@@ -250,13 +226,13 @@ $(document).ready(function() {
                 <li>- A wider mix of housing types that is more socially inclusive<li>\
                 <li>- Improved connectivity within the community so it is easier to walk and cycle<li>\
                 </ul>",
-      backgroundImage : "assets/img/title-slide-bg.png",
+      backgroundColor : "#38476c",
       backgroundParallaxDistance : 500
     },
     duration : 2500
   });
 
-  SLOE.make.slide({
+  SLOE.make.colorSlide({
     context : {
       "title" : "Sustainability Goals for Oblate Land Development",
       "body" : "<ul>\
@@ -266,7 +242,7 @@ $(document).ready(function() {
                 <li>- Improved connectivity and community amenities/services<li>\
                 <li>- Stormwater management on site and shoreline restoration<li>\
                 </ul>",
-      backgroundImage : "assets/img/title-slide-bg.png",
+      backgroundColor : "#63597c",
       backgroundParallaxDistance : 500
     },
     duration : 2500
@@ -281,7 +257,7 @@ $(document).ready(function() {
           <li>Help make OOE a resilient, sustainable community that is the ideal place to live, play and study.</li>\
         </ul>\
       ",
-      backgroundColor : "#eeaede",
+      backgroundColor : "#e1e892",
       iconImage : "assets/img/test-icon.png",
       backgroundParallaxDistance : 500
     },
