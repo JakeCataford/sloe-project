@@ -5,17 +5,17 @@ $(document).ready(function() {
       "title" : "Old Ottawa East",
       "subtitle" : "Making Change Work for a Sustainable Future",
       "backgroundParallaxDistance" : 500,
-      "backgroundImage" : "assets/img/title-slide-bg.png"
+      "backgroundImage" : "assets/img/title-slide-bg.jpg"
     },
-    duration : 1500
+    duration : 2500
   });
 
-  SLOE.make.slide({
+  SLOE.make.colorSlide({
     context : {
       "title" : "Old Ottawa East (OOE) is…",
       "body" : "A “hidden gem” of a community, located between the Rideau Canal and the Rideau \
                 River in central Ottawa",
-      backgroundImage : "assets/img/trees-and-path.png",
+      backgroundColor : "#2f4e25",
       backgroundParallaxDistance : 500
     },
     
@@ -40,7 +40,7 @@ $(document).ready(function() {
       "title" : "What's Been Achieved in Recent Years?",
       backgroundColor : "#2f4e25",
       stripeColor : "#8577a8",
-      iconImage : "assets/img/test-icon.png",
+      iconImage : "assets/img/test-icon.jpg",
       backgroundParallaxDistance : 500
     },
     
@@ -183,7 +183,7 @@ $(document).ready(function() {
           <li>Design and environmental assessment has been approved by City, and is waiting for funding</li>\
         </ul>\
       ",
-      backgroundImage : "assets/img/footbridge_ms_design.png",
+      backgroundImage : "assets/img/footbridge_ms_design.jpg",
       backgroundParallaxDistance : 500
     },
     
