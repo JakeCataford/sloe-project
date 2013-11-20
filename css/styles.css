@@ -67,6 +67,15 @@ body {
 
 ul {
   list-style: none;
+  padding: 0;
+}
+
+ul li {
+  padding-top: 10px;
+}
+
+ul li:nth-child(even){
+  color:#ededed;
 }
 
 .center {
@@ -107,6 +116,7 @@ ul {
 
 .header-text h3 {
   text-transform: uppercase;
-  margin:10px;
+  margin:50px;
+  width: 75%;
   font-size: 40px;
 }
