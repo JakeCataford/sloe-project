@@ -39,7 +39,7 @@ $(document).ready(function() {
     context : {
       "title" : "What's Been Achieved in Recent Years?",
       backgroundColor : "#2f4e25",
-      stripeColor : "#8577a8",
+      stripeColor : "#c9cb20",
       iconImage : "assets/img/test-icon.jpg",
       backgroundParallaxDistance : 500
     },
@@ -132,7 +132,7 @@ $(document).ready(function() {
     context : {
       "title" : "What Initiatives Are In Progress?",
       backgroundColor : "#2f4e25",
-      stripeColor : "#8577a8",
+      stripeColor : "#c9cb20",
       backgroundParallaxDistance : 500
     },
     
@@ -194,7 +194,7 @@ $(document).ready(function() {
     context : {
       "title" : "What’s Next for OOE?",
       backgroundColor : "#2f4e25",
-      stripeColor : "#8577a8",
+      stripeColor : "#c9cb20",
       iconImage : "assets/img/test-icon.png",
       backgroundParallaxDistance : 500
     },
@@ -265,7 +265,24 @@ $(document).ready(function() {
     duration : 2500
   });
 
-  
+  SLOE.make.footer({
+    context : {
+      "title" : "\
+		<a href='#'>Vist Our website</a> for further readings,<br/>\
+		<a href='#'>contact us</a> or <a href='#'>get involved</a> in the community<br/>\
+		by attending our <a href='#'>events</a>\
+		",
+      "body" : "\
+			Thank you for listening,<br/>\
+			We hope you are excited as we are <br/>\
+			about the future.\
+      ",
+      backgroundColor : "#e1e892",
+      backgroundParallaxDistance : 500
+    },
+
+    duration : 2500
+  });
   
 
   skrollr.init();
