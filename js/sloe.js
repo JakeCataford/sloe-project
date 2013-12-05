@@ -39,7 +39,7 @@ $(document).ready(function() {
     context : {
       "title" : "What's Been Achieved in Recent Years?",
       backgroundColor : "#2f4e25",
-      stripeColor : "#8577a8",
+      stripeColor : "#c9cb20",
       iconImage : "assets/img/test-icon.jpg",
       backgroundParallaxDistance : 500
     },
@@ -132,7 +132,7 @@ $(document).ready(function() {
     context : {
       "title" : "What Initiatives Are In Progress?",
       backgroundColor : "#2f4e25",
-      stripeColor : "#8577a8",
+      stripeColor : "#c9cb20",
       backgroundParallaxDistance : 500
     },
     
@@ -194,7 +194,7 @@ $(document).ready(function() {
     context : {
       "title" : "What’s Next for OOE?",
       backgroundColor : "#2f4e25",
-      stripeColor : "#8577a8",
+      stripeColor : "#c9cb20",
       iconImage : "assets/img/test-icon.png",
       backgroundParallaxDistance : 500
     },
@@ -264,8 +264,6 @@ $(document).ready(function() {
     
     duration : 2500
   });
-
-  
   
 
   skrollr.init();
