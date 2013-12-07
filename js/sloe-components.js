@@ -64,6 +64,10 @@
       timeline : function(options) {
         var settings = SLOE.validateOptions(options);
         SLOE.loadTemplate('timeline', settings.context, settings.duration);
+      },
+	  footer : function(options) {
+        var settings = SLOE.validateOptions(options);
+        SLOE.loadTemplate('footer', settings.context, settings.duration);
       }
 
     },

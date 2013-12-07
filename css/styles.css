@@ -126,7 +126,7 @@ ul li:nth-child(even){
 .header-text h3 {
   text-transform:none;
   margin:50px;
-    margin-top:0;
+  margin-top:0;
   width: 75%;
 }
 
@@ -137,3 +137,30 @@ ul li:nth-child(even){
     max-width:70%;
     box-shadow:5px 5px 15px rgba(0,0,0,0.5);
 }
+.btn{
+	border-radius:5px;
+	color: white;
+	padding-left:1px;
+	padding-right:1px;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+}
+.footer{
+	
+}
+.footer a{
+	text-decoration:none;
+}
+.footer p{
+	font-size: 25pt;
+}
+	
+#fbtn1{
+ background: rgb(66,184,221);
+}
+#fbtn2{
+ background: rgb(223,117,20);
+}
+#fbtn3{
+ background: rgb(202,60,60);
+}
+

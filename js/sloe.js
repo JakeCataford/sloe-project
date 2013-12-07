@@ -264,6 +264,27 @@ $(document).ready(function() {
     
     duration : 2500
   });
+
+  SLOE.make.footer({
+    context : {
+      "title" : "<a href='#' class='btn' id='fbtn1'>Vist Our Website</a>\
+			for reading, <br/>\
+			<a href='#' class='btn' id='fbtn2'>Contact Us<a/>\
+			or <a href='#'class='btn' id='fbtn3'>Get Involved<a/> in the community <br/>\
+			by attending our events.",
+      "body" : "\
+        <ul>\
+          <li>Thanks for listening,</li>\
+          <li>we hope you are as excited as we are</li>\
+		  <li>about the future.</li>\
+        </ul>\
+      ",
+      backgroundColor : "#e1e892",
+      backgroundParallaxDistance : 100
+    },
+
+	duration : 500
+  });
   
 
   skrollr.init();
